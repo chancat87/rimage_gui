@@ -41,22 +41,22 @@ As you can see, the software encompasses most of the features of the original so
 | `avif`                             | √             | √              |                                                                                               |
 | **`mozjpeg`**                      | √             | √              | **默认**实际上就是jpg格式，只是采用了moz的压缩方法，常见且体积小（**DEFAULT**, Common&Small） |
 | `webp`                             | √             | √              |                                                                                               |
-| **`png`**                          | √             | √              |                                                                                               |
+| **`png`**                          | √             | √              | `-q` 质量选项无效（`-q` option is disabled）                                                  |
 | ---------------------------------- | ------------- | -------------- | ---------------------------------------------------                                           |
-| `jxl` / `jpegxl`                   | √             | √              | `-q` 质量选项无效（`-q` opinion is disabled）                                                 |
+| `jxl` / `jpegxl`                   | √             | √              | `-q` 质量选项无效（`-q` option is disabled）                                                  |
 | `tif` / `tiff`                     | √             | X              |                                                                                               |
 
 ## 提示（Tips）
 
 <img width="714" alt="06月26日17时59分45秒" src="https://github.com/Mikachu2333/rimage_gui/assets/63829496/c7e11470-088e-4057-9d2d-7ae7730df40e">
 
-你可以通过鼠标悬停或者点击你想要了解的内容来查看解释。
-
-You can view the explanation by hovering or clicking on the content you want to understand.  
-
-所有的可选项都有详尽的解释。
-
-All the available options are explained in detail.
+- 你可以通过鼠标悬停或者点击你想要了解的内容来查看解释。
+- `PNG` 和 `JXL` 格式不能调整质量选项。
+- 所有的可选项都有详尽的解释。
+<--test-->
+- All the available options are explained in detail.
+- You can view the explanation by hovering or clicking on the content you want to understand. 
+- `png` and `jxl` format could not adjust quality option.
 
 ## 效果图（Pic After Use）
 
